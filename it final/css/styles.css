@@ -1,0 +1,118 @@
+* {padding:0;
+    margin:0;
+    box-sizing: border-box;
+    }
+
+    /* all site formatting  */
+
+ body{/*site background setting*/
+     background-color: antiquewhite;
+    /* background-image:url();	 */ 
+    font-family: 'Times New Roman', Times, serif;
+ }
+ div#wrapper{/**/
+    width:940px;
+    margin: 20px auto 20px auto;
+}
+.inner-header {
+    width: 940px;
+    margin:0 auto;
+}
+div#navi img{
+    width:940px;
+    margin:141px auto 20px auto;
+    /* padding-top:150px; */
+    /* margin-bottom:20px; */
+}
+header{
+    padding-top: 16px;
+    position: fixed;
+    width: 100%;
+    top: 0%;
+    left: 0%;
+    background: rgb(255,255,255,.95);
+}
+header img{ /*very top image*/
+    height: 75px;
+    padding: 5px;
+    border: rgb(84, 81, 241) 5px solid;
+    margin-bottom:20px;
+}
+        /* navagation tabs setting below */
+nav{height:50px;
+    line-height: 50px;
+    background:rgb(98, 165, 219);
+}
+nav li{
+    list-style-type: none;
+    float:left;
+    width: 25%;
+    text-align: center;
+}
+nav a{
+    text-decoration: none;
+    display:block;
+}
+nav a:hover{
+    background:teal;
+    color:white;
+}   
+            /* middle */
+main{
+    width:560px;
+    background: rgb(98, 165, 219);
+    margin-top: 16px;
+    float:left;
+    padding:10px;
+}
+img#pigment{height: 150px;
+    float: left;
+    padding:10px}
+img#big{
+    padding:10px;
+    width:600px;
+    display: block;
+    margin: 0 auto 0 auto;
+}
+img#theory{height: 150px;
+    float: right;
+    padding:10px}
+aside{
+    width:340px;
+    background: rgb(70, 190, 160);
+    margin-top: 16px;
+    float:right;
+    padding:10px;
+}
+/* add back in if we use captions for images */
+/* figcaption{
+    background: white;
+    font-size:  0.875em;
+    font-style: italic;
+    text-align: center;
+    font-weight: bolder;
+    margin-bottom: 5px; 
+}
+*/
+            /* bottom */
+footer{
+    height:50px;
+    background:rgb(70, 190, 160);
+    clear:both;
+    color:white;
+}
+footer a{
+    text-decoration: none;   
+}
+footer li{
+    list-style: none;
+    float:left;
+    margin-right:15px;
+    line-height: 50px;
+    padding-left: 10px;
+}
+footer a{color:white;}
+img {
+    max-width: 100%;
+    display:block;
+}
